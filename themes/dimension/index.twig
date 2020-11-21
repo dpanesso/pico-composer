@@ -47,7 +47,7 @@
 {% for page in pages|sort_by([ 'meta', 'nav' ]) if page.meta.template == "single" and not page.hidden %}
 								<li><a href="#{{ page.id }}">{{ page.title }}</a></li>
 {% endfor %}
-								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#contact">Contact</a></li>-->
 							</ul>
 						</nav>
 					</header>
